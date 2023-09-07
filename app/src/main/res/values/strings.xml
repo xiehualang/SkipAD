@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">SkipAD</string>
     <string name="accessibility_description">skip_AD</string>
+    <string name="tip_one">跳过广告服务状态：</string>
+    <string name="tip_two">去开启</string>
 </resources>
