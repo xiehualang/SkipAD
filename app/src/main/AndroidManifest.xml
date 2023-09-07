@@ -25,6 +25,18 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <service
+            android:name=".bean.GanSiADService"
+            android:exported="false"
+            android:label="干死AD"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/ad_gun_service_config" />
+        </service>
     </application>
 
 </manifest>
