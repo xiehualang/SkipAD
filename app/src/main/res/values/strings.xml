@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SkipAD</string>
+    <string name="accessibility_description">skip_AD</string>
 </resources>
